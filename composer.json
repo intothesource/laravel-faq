@@ -1,0 +1,25 @@
+{
+    "name": "intothesource/laravel-faq",
+    "description": "A basic Frequently Asked Questions package with categories",
+    "keywords": ["laravel", "faq", "frequently", "asked", "questions", "categories", "thesource", "in to the source", "intothesource"],
+    "homepage": "https://github.com/intothesource/laravel-faq",
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "David Bikanov",
+            "email": "dbikanov@intothesource.com",
+            "homepage": "http://wwww.intothesource.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/html": "^5.0"
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "IntoTheSource\\Faq\\": "src"
+        }
+    }
+}
